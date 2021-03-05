@@ -48,7 +48,7 @@ int main()
     //5. F = conjunto dos estados finais.
     set<state> final{"s3"};
 
-    string RNAm[9] = {
+    string RNAm[10] = {
         {"CGCAUGUAACCUCACUG"},
         {"UCGACUCCGCCACCUGA"},
         {"CAGCACGUUGCAAGGCC"},
