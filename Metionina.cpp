@@ -53,6 +53,7 @@ int main()
         {"UCGACUCCGCCACCUGA"},
         {"CAGCACGUUGCAAGGCC"},
         {"AUGCAAUUCGUAGCUG"},
+        {"AUGCAACGUUGCAUCG"},
         {"CGAUCAUUAUACGAUG"},
         {"GCCGAUGAUCAUGUGA"},
         {"CGAUUGCAAGCGUCCA"},
