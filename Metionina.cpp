@@ -86,7 +86,7 @@ int main()
     }
 
     //Aceita ou Regeita
-    if(final.count(current) != false)
+    if(final.count(current) == true)
         cout << "Aceito:  Sim eh RNA mensageiro!" << endl;
     else
         cout << "Regeita: Nao eh RNA mensageiro!" << endl; 
