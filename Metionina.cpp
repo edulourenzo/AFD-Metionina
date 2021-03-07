@@ -7,6 +7,7 @@
 */
 
 #include <iostream>
+#include <iomanip>
 #include <map>
 #include <set>
 
@@ -79,9 +80,12 @@ int main()
     idx = 0;
     while (idx < RNAm[opt].size())
     {
-        cout << "delta(" << current << ", " << RNAm[opt][idx] << ") = ";
+        cout << setw(2) << idx << ". delta(" << current << ", " << RNAm[opt][idx] << ") = ";
+
         current = delta[ST[current]][SG[RNAm[opt][idx]]];
+        
         cout << current << endl;
+        
         idx++;
     }
 
